@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Chatbot</title>
+    <style>
+        /* Simple styling for the website */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f9;
+        }
+        header {
+            width: 100%;
+            padding: 1rem;
+            background-color: #3a86ff;
+            color: white;
+            text-align: center;
+        }
+        .content {
+            max-width: 800px;
+            margin: 2rem;
+            text-align: center;
+        }
+        .chatbot-container {
+            width: 100%;
+            max-width: 500px;
+            height: 600px;
+            border: none;
+            margin-top: 20px;
+        }
+        footer {
+            margin-top: auto;
+            padding: 1rem;
+            background-color: #3a86ff;
+            color: white;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Website Header -->
+    <header>
+        <h1>FAQ Chatbot</h1>
+        <p>Your virtual assistant for common questions</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <p>Welcome to our FAQ Chatbot! Here, you can find answers to frequently asked questions. Just type your question in the chat below, and the bot will provide the best answer available.</p>
+    </div>
+
+    <!-- Chatbot Container -->
+    <iframe
+        class="chatbot-container"
+        src="YOUR_DIALOGFLOW_CHATBOT_URL_HERE">
+    </iframe>
+
+    <!-- Website Footer -->
+    <footer>
+        <p>&copy; 2024 FAQ Chatbot. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
